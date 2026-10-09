@@ -3,39 +3,36 @@ Structure and the names of what each page offers. Values that change often — p
 address — and body copy are deliberately not recorded here; read the page itself for those.
 
 ## index.html → /
-title: Dre's Island Food Services – Jamaican Catering in Dade City, FL
-purpose: Showcase Chef Dre's Jamaican catering services, event dishes, and contact details.
+title: Jamaican Catering in Tampa Bay, FL | Dre's Island Food Services
+purpose: Homepage for Dre's Island Food Services, a Jamaican-rooted caterer serving Tampa Bay and Central Florida: collage hero, service styles, tabbed signature menu, reviews, Chef Dre, the Flavor Oasis tasting series and the catering quote form.
 sections:
-- `#hero` — Hero introduction and call to action
-- `#story` — Business story and service types: Drop-off, Full service
-- `#gallery` "Featured authentic dishes and platters" — Photo gallery of past event dishes
-- `#reviews` — Customer reviews and testimonials: Camille York Adrien, Jean-Luc Adrien, Madelyn M, Donyelle Lark-Hill, Chiquitta Nash
-- `#offerings` — Past event record: Flavor Oasis — The Second Edition
-- `#contact` "Tell Chef Dre what you're celebrating." — Contact and catering enquiry form
-also: The business address and map link appear in the JSON-LD local business block and the contact section.
-also: The business description appears in the meta description, open graph tags, and JSON-LD local business block.
+- `#top` — editorial hero headline, quote and menu calls to action, food photo collage and rating badge
+- scrolling marquee of signature dish names: Braised Oxtail, Jerk Chicken, Escovitch Snapper, Curry Goat, Festival
+- `#experience` — brand story, drop-cap copy and credential facts
+- numbered service style rows with thumbnails (no prices): Small Bites, Drop-off Feasts, Onsite Family-Style, The Chef's Table
+- `#menu` "Straight outta Jamaica." — tabbed signature menu: Island Classics, From the Sea, Sides & Fusion (no prices): Braised Oxtail, Jerk Chicken, Curry Goat, Ackee & Saltfish, Escovitch Snapper, Brown Stew Snapper, Jerk Salmon, Shrimp Pasta, Jerk Chicken Pasta, Rice & Peas, Sweet Plantains, Festival
+- `#reviews` — pull-quote review band, two review cards and the aggregate rating: Gillene Nelson, Donyelle Lark-Hill, Madelyn M
+- `#chef` — chef biography, quote and credential chips: Andre, Miss Mavis, Sandals Resorts
+- `#flavor-oasis` "Flavor Oasis." — signature tasting-series feature with event artwork, numbered features, latest edition card and event photos: Flavor Oasis, Five-course tasting, Meet the chef, Intimate seating, Live music, Factory 22, Wesley Chapel
+- three-step booking process and occasion list: Weddings, Galas, Corporate, Birthdays, Brunches, Tastings
+- event photo gallery with Instagram link
+- `#faq` — FAQ accordion: Where do you cater?, How much does catering cost?, How far ahead should I book?
+- `#quote` — catering quote form (name, email, event date, guest count, event type, message) posting to the Kora forms API, contact cards and map
+also: Signature dish names appear in the marquee and again in the tabbed menu panels.
+also: The Google rating appears in the hero badge, the facts strip and the reviews score card.
+also: The quote form submit script is inline at the end of index.html, not in assets/site.js.
 
 ## 404.html → /404
 title: Page not found | Dre's Island Food Services
-purpose: Display a 404 error when a page is not found.
-sections:
-- `#nf-title` "This plate has been cleared." — Error message and navigation links: Back to the homepage
-
-## flavor-oasis.html → /flavor-oasis
-title: Flavor Oasis Tasting Event | Dre's Island Food Services
-purpose: Show details for Chef Dre's Flavor Oasis tasting event and provide a contact form for catering enquiries.
-sections:
-- `#offerings` — Event details, features, and imagery for Flavor Oasis — The Second Edition: Flavor Oasis — The Second Edition, Factory 22, Wesley Chapel, FL, Discover Exquisite Tastes, A Feast for the Senses, Curated Tasting Stations, Intimate Setting, Meet the Culinary Creator, Entertainment and Ambiance
-- `#contact` — Contact details, address, and catering enquiry form: Dade City, FL
-also: The Flavor Oasis event name, description, and location in Wesley Chapel appear in the visible content and JSON-LD structured data.
+purpose: Platform not-found page (noindex) linking back to the homepage and the phone line.
 
 ## support files
 Files that are not pages. A line marked [content] holds words or data a visitor reads, so a
 change to the site's content can land there; the rest only make the site work or look right.
-- `llms.txt` — 175 bytes — too small to hold content
-- `robots.txt` — 45 bytes — too small to hold content
-- `sitemap.xml` — 160 bytes — too small to hold content
-- `assets/site.js` — Site behaviour scripts (header, mobile menu, scroll reveal, tabs, action bar, anchor handling, footer year)
+- `llms.txt` — business summary for AI crawlers: services, dishes, Flavor Oasis, chef, contact: Flavor Oasis, Small Bites, Drop-off Feasts, Onsite Family-Style, Braised oxtail, jerk chicken  [content]
+- `robots.txt` — 101 bytes — too small to hold content
+- `sitemap.xml` — sitemap listing the homepage (rewritten at deploy)
+- `assets/site.js` — header scroll state, mobile menu, scroll reveal, menu tabs, sticky mobile action bar and the 404 anchor rewrite
 
 ## shared (every page)
 The header, navigation, mobile menu and footer are propagated from index.html to every other page by
