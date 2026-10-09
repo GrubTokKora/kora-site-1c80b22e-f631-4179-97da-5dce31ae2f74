@@ -8,7 +8,7 @@ purpose: Homepage for Dre's Island Food Services, a Jamaican-rooted caterer serv
 sections:
 - `#top` — editorial hero headline, quote and menu calls to action, food photo collage and rating badge
 - scrolling marquee of signature dish names: Braised Oxtail, Jerk Chicken, Escovitch Snapper, Curry Goat, Festival
-- `#experience` — brand story, drop-cap copy and credential facts
+- `#about` — brand story (about), drop-cap copy and credential facts
 - numbered service style rows with thumbnails (no prices): Small Bites, Drop-off Feasts, Onsite Family-Style, The Chef's Table
 - `#menu` "Straight outta Jamaica." — tabbed signature menu: Island Classics, From the Sea, Sides & Fusion (no prices): Braised Oxtail, Jerk Chicken, Curry Goat, Ackee & Saltfish, Escovitch Snapper, Brown Stew Snapper, Jerk Salmon, Shrimp Pasta, Jerk Chicken Pasta, Rice & Peas, Sweet Plantains, Festival
 - `#reviews` — pull-quote review band, two review cards and the aggregate rating: Gillene Nelson, Donyelle Lark-Hill, Madelyn M
