@@ -8,7 +8,7 @@ interaction_level: L2
 light_only: true   # owner decision: no dark design / no dark mode
 
 typography:
-  display: "Fraunces"
+  display: "Newsreader"
   body: "Plus Jakarta Sans"
 
 palette:
@@ -16,7 +16,7 @@ palette:
   secondary: "#FFFBF4"
   accent: "#F2A93B"
   application: |
-    Warm cream #FFFBF4 ground with sand #F3E8D6 and mango-soft #FCE9C8 bands, ink #231F1A text, terracotta #B4452A as the action/emphasis colour, mango #F2A93B as the highlight, palm #2E5B45 sparingly. Fraunces display (italics in terracotta), Plus Jakarta Sans body. Light design only, no dark mode. Rounded 18px cards, pill buttons, numbered section kickers.
+    Warm cream #FFFBF4 ground with sand #F3E8D6 and mango-soft #FCE9C8 bands, ink #231F1A text, terracotta #B4452A as the action/emphasis colour, mango #F2A93B as the highlight, palm #2E5B45 sparingly. Newsreader display (upright; emphasis words in terracotta, no italics), Plus Jakarta Sans body. Light design only, no dark mode. Rounded 18px cards, pill buttons, numbered section kickers.
 
 composition: |
   Oversized editorial hero headline over a three-photo food collage with a rotating '5.0 Google' badge; dish-name marquee; numbered service rows with thumbnails; tabbed signature menu on white plates; mango pull-quote review band; terracotta-framed chef portrait; sticky Call / Request a Quote bar on mobile.
