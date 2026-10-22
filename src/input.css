@@ -40,7 +40,7 @@
   --palm: #2E5B45;
   --sea: #DDEBE4;
   --line: rgba(35, 31, 26, .14);
-  --font-display: "Newsreader", Georgia, serif;
+  --font-display: var(--font-heading);
   --font-body: var(--kora-font-body, "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif);
   --wrap: min(1280px, 100% - 2.5rem);
   --ease: cubic-bezier(.2, .7, .2, 1);
